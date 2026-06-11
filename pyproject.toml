@@ -1,0 +1,23 @@
+[project]
+name = "gita"
+version = "1974.0.0"
+description = "A cosmologia de 'Gita' (Raul Seixas / Paulo Coelho) implementada em Python orientado a objetos. Toda pergunta levanta exceção."
+requires-python = ">=3.9"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Cícero Raupp Rolim", email = "ironworld@gmail.com" },
+]
+
+[tool.pytest.ini_options]
+addopts = "-v --cov=gita --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["gita"]
+
+[tool.coverage.report]
+# Ele é onipresente. Cobertura parcial seria uma contradição teológica.
+fail_under = 100
+show_missing = true
