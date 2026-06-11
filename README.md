@@ -1,6 +1,6 @@
 # Gita
 
-[![detector de heresias](https://github.com/ironworld/gita-raul-seixas/actions/workflows/tests.yml/badge.svg)](https://github.com/ironworld/gita-raul-seixas/actions/workflows/tests.yml)
+[![detector de heresias](https://github.com/ironworld/raul-seixas-gita/actions/workflows/tests.yml/badge.svg)](https://github.com/ironworld/raul-seixas-gita/actions/workflows/tests.yml)
 ![cobertura](https://img.shields.io/badge/cobertura_(onipresen%C3%A7a)-100%25-brightgreen)
 ![python](https://img.shields.io/badge/python-3.9_%E2%86%92_3.14-blue)
 ![licença](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
